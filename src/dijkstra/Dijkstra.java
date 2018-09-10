@@ -9,7 +9,7 @@ public class Dijkstra {
 		int Ant[] = new int[100];
 		boolean ExpA[] = new boolean[100];
 		int N, Origem, Destino, i, j, C, NovaDA, Min;
-		//N = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de cidades));
+		//N = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de cidades)) Teste;
 		N = 6;
 		for(i=0;i<N;i++) {
 			for(j=0;j<N;j++) {
